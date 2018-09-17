@@ -1,5 +1,4 @@
 # VBTree package
-======
 [![CRAN Version](http://www.r-pkg.org/badges/version/VBTree)](https://cran.r-project.org/package=VBTree)
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/VBTree?color=brightgreen)](https://cran.r-project.org/package=VBTree)
 [![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/VBTree?color=brightgreen)](https://cran.r-project.org/package=VBTree)
