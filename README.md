@@ -28,6 +28,11 @@ install.packages("VBTree")
 
 ```
 library(devtools)
-devtools::install_github()
+devtools::install_github("CubicZebra/VBTree")
 ```
 
+## Contact
+
+Author: ZHANG Chen 
+
+Mail: 447974102@qq.com
