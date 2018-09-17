@@ -88,7 +88,7 @@ If we need highly customized condition select, for example I need make traversal
 print(vbt)
 ```
 
-Well, the desired elements locate from 3rd to 7th in layer 2, the 2nd and 4th in layer 3. We can made two double list to specify and the desired Stress and Strain subsets. The demonstration is:
+Well, the desired elements locate from 3rd to 7th in layer 2, the 2nd and 4th in layer 3. We can made two double list to specify and extract the desired Stress and Strain subsets. The demonstration is:
 
 ```{r}
 subStrain_dl <- list(1, c(3:7), c(2,4), 1)
