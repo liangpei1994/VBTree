@@ -14,7 +14,7 @@ As we know, for many tasks with group attribute such as data visualization for s
 
 **VBTree** is aimed to build a logical mapping between your raw data and your projects, through correctly setting column names of your raw data. Now you can imagine a data frame with many but limited columns, and with millions of rows, all your management on that data can be implemented just by reading its column names. The imported column names are saved in forms of vector binary tree, double list and array (tensor), which three can be convertible mutually. For different task objectives, you can use the rules in **VBTree** to build your code for telling your program how to extract your desired subset from the raw data.
 
-We assume there is a data with 10 variables and 2 levels for each variable, if all combinations will be listed fully into columns, it must be 1024 columns in your data frame. For data visualization, non-numeric varaibles will be melted which makes the data frame further increased in object size. While as for management methods in **VBTree**, most of your requirements in data processing will be achieved, by constructing a vector binary tree with the structure of 10 layers and 2 levels in each layer.
+We assume there is a data with 10 variables and 2 levels for each variable, if all combinations will be listed fully into columns, it must be 1024 columns in your data frame. For data visualization, non-numeric varaibles will be melted which makes the data frame further increased in object size. While as for management methods in **VBTree**, most of your requirements in data processing will be achieved, by constructing a vector binary tree with the structure of only 10 layers and 2 levels in each layer.
 
 ## Installation
 
