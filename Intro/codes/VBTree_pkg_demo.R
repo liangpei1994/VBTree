@@ -1,3 +1,15 @@
+ipak <- function(pkg) {
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg))
+    install.packages(new.pkg, dependencies = TRUE)
+  sapply(pkg, require, character.only = TRUE)
+}
+
+#libraries
+packages <- c("VBTree", "tensorA", "Hmisc", "MVNBayesian", "stats", "graphics")
+ipak(packages)
+
+
 data <- as.data.frame(iris3)
 names(data) <- mapply(gsub, colnames(data), pattern=" |\\.{2}", replacement="-")
 dim(data)
@@ -170,6 +182,7 @@ newdata <- cbind(data1, data2)
 
 require(Hmisc)
 require(tensorA)
+require(MVNBayesian)
 groupmodeling <- function(data, ftlys, grpby){
   # note1: ftlys is an integer vector for layer(s) of features
   # note2: grpby is an integer vector for group conditions
